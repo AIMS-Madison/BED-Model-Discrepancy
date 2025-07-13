@@ -2,8 +2,6 @@
 
 This repository supports the paper *"Active Learning of Model Discrepancy with Bayesian Experimental Design"*.
 
-## Quick Start
-
 ### Environment Requirements
 
 - `jax`         0.4.20 ~ 0.4.28  
