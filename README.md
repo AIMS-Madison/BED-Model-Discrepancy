@@ -14,6 +14,8 @@ This repository supports the paper *"Active Learning of Model Discrepancy with B
 
 ⚠️ *Note: `optax` 0.2.4 is only compatible with `jax` 0.4.28. Please ensure version consistency.*
 
+⚠️ *The exact versions used to generate the results are specified in detail in the code.*
+
 Experiments in the paper were originally run on **WSL with an RTX 4090**. The code is also known to **exceed memory limits** on a 12GB **4070 Super**. CPU execution is possible but may be slower.
 
 ---
