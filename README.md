@@ -2,7 +2,6 @@
 
 This repository supports the paper *"Active Learning of Model Discrepancy with Bayesian Experimental Design"*.
 
----
 
 ### Environment Requirements
 
