@@ -33,7 +33,7 @@ def exponential_force(
   array = factor * jnp.exp(-exponent_internal / (2.0 * 0.05 **2))
 
   G1 = grids.GridArray(array, offsets[1], grid)
-  G2 = grids.GridArray(array, offsets[0], grid)#这里的offset设计是没有道理的
+  G2 = grids.GridArray(array, offsets[0], grid)
 
   def forcing():
     return tuple((G1,G2))
@@ -112,4 +112,5 @@ def reciprocal_force_with_nn(
   def forcing():
     return tuple((G1,G2))
   
+
   return forcing
