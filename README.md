@@ -39,7 +39,12 @@ If you use this code or find it helpful for your research, please cite:
 ```bibtex
 @article{yang2025active,
   title={Active learning of model discrepancy with Bayesian experimental design},
-  author={Yang, Huchen and Chen, Chuanqi and Wu, Jin-Long},
-  journal={arXiv preprint arXiv:2502.05372},
-  year={2025}
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {446},
+  pages = {118198},
+  year = {2025},
+  issn = {0045-7825},
+  doi = {https://doi.org/10.1016/j.cma.2025.118198},
+  url = {https://www.sciencedirect.com/science/article/pii/S0045782525004700},
+  author = {Huchen Yang and Chuanqi Chen and Jin-Long Wu},
 }
